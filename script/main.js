@@ -6,7 +6,7 @@
         MICHIMP INTEGRATION
     -----------------------------*/
     $('#mc-form').ajaxChimp({
-        url: 'http://www.devitfamily.us14.list-manage.com/subscribe/post?u=b2a3f199e321346f8785d48fb&amp;id=d0323b0697', //Set Your Mailchamp URL
+        url: 'http://w3dev.us16.list-manage.com/subscribe/post?u=dc318a8da9c5a0e06e12dbb57&amp;id=3c606f799f', //Set Your Mailchamp URL
         callback: function (resp) {
             if (resp.result === 'success') {
                 $('.subscribe-form input, .subscribe-form button').fadeOut();
